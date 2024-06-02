@@ -1,0 +1,165 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>SharwOrangeのBlog小屋</title><meta name="author" content="SharwOrange"><meta name="copyright" content="SharwOrange"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="SharwOrangeのBlog小屋">
+<meta property="og:url" content="https://blog.hope-now.top:8443/">
+<meta property="og:site_name" content="SharwOrangeのBlog小屋">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="SharwOrange">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://blog.hope-now.top:8443/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'SharwOrangeのBlog小屋',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-06-02 22:03:11'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="SharwOrangeのBlog小屋"><span class="site-name">SharwOrangeのBlog小屋</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">SharwOrangeのBlog小屋</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/20230904214934" title="御三家启动器外置使用教程（PCL2、HMCL、BakaXL）">御三家启动器外置使用教程（PCL2、HMCL、BakaXL）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-09-04T13:49:34.000Z" title="发表于 2023-09-04 21:49:34">2023-09-04</time></span></div><div class="content">就接着上文来说，如果你部署好了外置服务器，但是又没有这么多时间来一个个地教玩家们使用；或者你作为玩家，想要学习关于关于外置登录的使用，那相信你也能很快上手
+
+网页部分这个部分其实更适合叫做 皮肤站部分，因为大多数的外置其实都是使用皮肤站配合 Yggdrasil API 插件实现外置的功能其实都大差不多，这里用Blessing Skin举例，如果你在首页往下滑，能看到Blessing Skin字样的，基本都是用Blessing Skin部署的皮肤站，或者说外置系统了
+账户注册账户注册这个应该都清楚。只需要去注册一个账户并邮箱验证即可（该项视情况而定，个别皮肤站并没有邮箱验证的要求）因为本文主要为本人所开的服务器做教程，所以会用自己搭建的外置来验证，下文也均使用自己搭建的外置来作教程举例即使不是本服务器的玩家，也能使用该教程（大同小异）
+打开你的浏览器，输入https://link.hope-now.top:20008/auth/register （同上，个别服务器可能有差别，注意分别）由于需要适配基岩版，所以该验证系统有单角色限制，所以开小号无法使用角色功能，请另开账号邮箱，密码，用户名 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/20230902142755" title="让Geyser用上外置登录（使用Authlib-Injector）">让Geyser用上外置登录（使用Authlib-Injector）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-09-02T06:27:55.000Z" title="发表于 2023-09-02 14:27:55">2023-09-02</time></span></div><div class="content">平心而论，在我开测试服的时候顺便兼容了基岩版本加了Geyser插件（本人也是一位服主）而在正式服，又忍受不了登录插件的许多毛病；在外网ip只有一个而且还是DDNS来连接的情况下，需要开不止一个服务器，本身就是个问题带端口也不好看主要是在尝试跨服解决方案后又因为登录插件的问题导致有盗号漏洞又想到了在很久之前因为没折腾出来基岩版的使用方案而被废弃的外置登录在仔细看了Authlib-Injector和Geyser的关于基岩版使用外置的所有Issue之后，折腾出了这么些方案  
+
+准备环节
+外置登录解决方案（这个应该不用多说了吧，这里用Blessing Skin加上其插件 Yggdrasil API 举例）
+Geyser（本文使用插件版，独立版未测试，但是理论可行，需要在启动参数后面加上Authlib-Injector的启动参数来修改验证地址 服务端也要改成一样的地址  ）
+一个Minecraft服务器
+
+因为Geyser本身的问题，无法使用有多角色的外置登录解决方案，所以需要再加个插件单角色限制 single-player-limit由于载入之后需要选择一个角色来使用，其他角色会被清除（可能 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/20230609182444" title="Blog终于弄好了">Blog终于弄好了</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-06-09T10:24:44.000Z" title="发表于 2023-06-09 18:24:44">2023-06-09</time></span></div><div class="content">Blog小屋搭建好啦！🥳🥳🥳部署好啦两天的努力（应该是三天了）终于把小屋弄好了🥳从8日（准备工作呢其中还删了一次＞﹏＜）开始到今天8天高考的时间，用去了三天😨虽然明天晚上就要上那B晚自习了😭不过还仅仅是能看，背景图啥的还没换呢（某只懒猪还知道啊╯︿╰）
+后续准备🤔可能过几天有空会把部署Blog的日志上传上来毕竟是珍贵经验（折腾了三天能不珍贵么😢）可以帮自己也能帮别人博客是用Github Actions部署到Github Pages的，双仓库一个是源码，一个是静态页面（这点不得不表扬一下Hexo😋
+就这样？🤔可能还会更新这篇（？站点写的东西吧（按照关于页的自我吐槽就是啥都写，杂七杂八的）总之后续写什么，就敬请期待啦（这个b自己都不确定😶）
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">SharwOrange</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/20230904214934" title="御三家启动器外置使用教程（PCL2、HMCL、BakaXL）">御三家启动器外置使用教程（PCL2、HMCL、BakaXL）</a><time datetime="2023-09-04T13:49:34.000Z" title="发表于 2023-09-04 21:49:34">2023-09-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/20230902142755" title="让Geyser用上外置登录（使用Authlib-Injector）">让Geyser用上外置登录（使用Authlib-Injector）</a><time datetime="2023-09-02T06:27:55.000Z" title="发表于 2023-09-02 14:27:55">2023-09-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/20230609182444" title="Blog终于弄好了">Blog终于弄好了</a><time datetime="2023-06-09T10:24:44.000Z" title="发表于 2023-06-09 18:24:44">2023-06-09</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">九月 2023</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">3</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-06-02T14:03:11.318Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By SharwOrange</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
